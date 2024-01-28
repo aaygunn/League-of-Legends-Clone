@@ -1,0 +1,101 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+  .footer_up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #061C25;
+    height: 78px;
+    width: 100%;
+    color: #D1DAD2; }
+    .footer_up-title {
+      font-weight: 700;
+      margin-left: 78px; }
+    .footer_up-desc {
+      font-size: 12px;
+      font-weight: 600;
+      text-wrap: wrap;
+      width: 574px;
+      text-align: center; }
+    .footer_up-logo {
+      display: flex;
+      justify-content: space-around;
+      width: 300px; }
+      .footer_up-logo_app {
+        width: 110px; }
+      .footer_up-logo_google {
+        width: 120px;
+        margin-right: 78px; }
+  .footer_mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 78px;
+    width: 100%;
+    background-color: #292929;
+    gap: 35px; }
+    .footer_mid a {
+      text-decoration: none;
+      color: #D1DAD2;
+      font-size: 15px;
+      font-weight: 600;
+      padding: 5px;
+      border: 1px solid transparent;
+      transition: .2s ease-in-out; }
+      .footer_mid a:hover {
+        border: 1px solid #444444;
+        background-color: #444444;
+        border-radius: 6px; }
+  .footer_down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 326px;
+    background-color: #111111; }
+    .footer_down-links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-top: -43px; }
+      .footer_down-links svg {
+        fill: #f9f9f9;
+        fill-rule: evenodd;
+        width: 20px;
+        height: 20px;
+        background-color: #292929;
+        border-radius: 12px;
+        box-sizing: content-box;
+        padding: 8px; }
+    .footer_down-logo {
+      fill: #737373;
+      margin-top: 54px;
+      width: 99px;
+      height: 32px; }
+    .footer_down-desc {
+      width: 700px;
+      font-size: 12px;
+      color: #737373;
+      font-weight: 600;
+      text-align: center;
+      margin-top: 33px; }
+    .footer_down-link {
+      display: flex;
+      width: 700px;
+      align-items: center;
+      gap: 30px;
+      margin-top: 37px; }
+      .footer_down-link a {
+        text-decoration: none;
+        color: #EAF9F9;
+        font-weight: 500;
+        border: 1px solid transparent;
+        padding: 8px;
+        transition: .2s ease-in-out;
+        border-radius: 10px;
+        font-size: 14px; }
+        .footer_down-link a:hover {
+          background-color: #292929; }

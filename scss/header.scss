@@ -1,0 +1,190 @@
+@import "variables";
+
+@media(max-width:1000px){
+  #nav-links, #nav-warning, #nav-buttons{
+    display: none;
+  }
+#nav-world svg{
+    height: 60px;
+    width: 60px;
+}
+#nav-icons{
+   
+    width: 350px;
+    justify-content: flex-end;
+    
+}
+#nav-hamburger{
+    display: block;
+}
+}
+
+.header {
+    display: flex;
+    background-color: #111111;
+    height: $sz*8;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    align-items: center;
+    z-index: 200;
+
+    &_nav {
+        display: flex;
+        align-items: center;
+
+        & img {
+            margin-left: $sz;
+        }
+
+        &-logo {
+            fill: #f9f9f9;
+            height: $sz*2.3;
+            width: $sz*7.5;
+            margin-left: $sz*2.7;
+            &:hover{
+                fill: #EB0029;
+                transition: .3ms;
+            }
+          
+
+        }
+
+        &-logoL img {
+            width: $sz*2.4;
+            height: $sz*2.8;
+            margin-left: $sz*3;
+            
+        }
+
+        &-links {
+            margin-left: $sz;
+           
+        }
+
+        &-links a {
+            color: #f9f9f9;
+            font-size: $sz*1.3;
+            margin-left: $sz;
+            font-weight: 500;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+           
+
+            &:hover {
+                border: 1px solid #2B2A29;
+                background-color: #333333;
+                border-radius: $sz/2;
+                transition: .3ms;
+                cursor: pointer;
+
+            }
+        }
+
+        &-icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: $sz*3;
+            
+
+            &_search {
+                width: $sz*4.3;
+                height: $sz*4.3;
+                background-color: #2B2A29;
+                margin-left: $sz*3;
+                border-radius: 50%;
+
+                & svg {
+                    fill: #f9f9f9;
+                    width: $sz*2.2;
+                    height: $sz*2.2;
+                    align-self: center;
+                    margin-top: $sz;
+                    margin-left: $sz;
+
+                }
+
+            }
+
+            &_warning {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 30px;
+                height: 30px;
+                margin-left: -10px;
+
+                &:hover {
+                    background-color: #2B2A29;
+                    border-radius: $sz/2;
+                    transition: .3ms;
+                    cursor: pointer;
+                }
+
+                & svg {
+                    height: $sz*2;
+                    width: $sz*2;
+                    fill: #BE29CC;
+
+                }
+            }
+
+            &_world {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 30px;
+                height: 30px;
+                margin-left: -10px;
+
+                &:hover {
+                    background-color: #2B2A29;
+                    border-radius: $sz/2;
+                    transition: .3ms;
+                    cursor: pointer;
+                }
+                & svg{
+                    height: $sz*1.6;
+                    width: $sz*1.6; 
+                }
+            }
+            &_hamburger{
+                width: 60px;
+                height: 60px;
+                display: none;
+            }
+
+        }
+        &-buttons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: $sz*2;
+            margin-left: 100px;
+            cursor: pointer;
+
+            &_giris{
+                color: #f9f9f9;
+                font-size: $sz*1.3;
+                font-weight: 600;
+                background-color: #2B2A29;
+                padding: $sz/1.2 $sz*1.5;
+                border-radius: $sz/2;
+                margin-left: $sz;
+            }
+            &_oyna{
+                color: #111111;
+                font-size: $sz*1.3;
+                font-weight: 600;
+                background-color: #00B2CF;
+                padding: $sz/1.2 $sz*1.5;
+                border-radius: $sz;
+                &:hover{
+                    background-color: #0198af;
+                }
+            }
+        }
+    }
+}
+
