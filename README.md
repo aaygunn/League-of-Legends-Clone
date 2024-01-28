@@ -15,5 +15,4 @@ CSS3 ve SCSS
 
 <h2> Ekran Görüntüsü:</h2>
 
-<video autoplay loop>
-                <source src="lol.mp4" type="video/mp4"></video>
+![](lol.gif)
